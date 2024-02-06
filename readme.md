@@ -12,8 +12,6 @@ Install gh-pages library
 npm install --save gh-pages
 ```
 
-
-
 ## Clone Repo
 
 Clone Project ini, dengan command berikut di Terminal
@@ -40,6 +38,13 @@ npm run start
 
 Untuk melakukan deployment ke github pages anda perlu melakukan langkah-langkah berikut:
 
-- Commit hasil perubahan ke repo baru
+1. Pastikan Requirement sudah dipenuhi
+1. Pastikan ubah file `package.json`
+
+   ```
+    "homepage": "https://myusername.github.io/my-app",
+   ```
+
+1. Commit hasil perubahan ke repo baru
 
 References: https://medium.com/@swarajgosavi20/how-to-deploy-react-on-github-pages-33e427f0bd36
