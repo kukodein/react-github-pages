@@ -26,7 +26,7 @@ git clone https://github.com/kukodein/react-github-pages
 npm install
 ```
 
-## Deploy
+## Running
 
 Jalankan project ini dengan command berikut di Terminal
 
@@ -46,5 +46,18 @@ Untuk melakukan deployment ke github pages anda perlu melakukan langkah-langkah 
    ```
 
 1. Commit hasil perubahan ke repo baru
+1. Jalankan command berikut di terminal untuk memperbarui code di branch Github `gh-pages`
+
+   ```
+   npm run deploy
+   ```
+
+## Deploy perubahan ke Github Pages
+
+Jalankan command berikut di terminal untuk memperbarui code di branch Github `gh-pages`
+
+```
+npm run deploy
+```
 
 References: https://medium.com/@swarajgosavi20/how-to-deploy-react-on-github-pages-33e427f0bd36
