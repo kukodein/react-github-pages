@@ -6,7 +6,13 @@ Repo ini digunakan untuk template atau contoh project react yang akan di publish
 
 ## Requirement
 
-- .
+Install gh-pages library
+
+```
+npm install --save gh-pages
+```
+
+
 
 ## Clone Repo
 
@@ -35,3 +41,5 @@ npm run start
 Untuk melakukan deployment ke github pages anda perlu melakukan langkah-langkah berikut:
 
 - Commit hasil perubahan ke repo baru
+
+References: https://medium.com/@swarajgosavi20/how-to-deploy-react-on-github-pages-33e427f0bd36
